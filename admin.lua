@@ -16,7 +16,7 @@ end
 -- Comandos locais
 local function Kick(playerName)
     if playerName == LocalPlayer.Name then
-        LocalPlayer:Kick("Você foi removido pelo Nytherune Hub.")
+        LocalPlayer:Kick("Você foi removido pelo Gojo Hub.")
     end
 end
 
@@ -88,7 +88,7 @@ local function Verifique()
     local channel = TextChatService.TextChannels.RBXGeneral
     if channel then
         local randomNumber = math.random(1000,9999)
-        local msg = "Nytherune_"..randomNumber
+        local msg = "GOJO_"..randomNumber
         channel:SendAsync(msg)
     end
 end
@@ -136,23 +136,23 @@ local TweenService = game:GetService("TweenService")
 
 -- Criação da janela
 local Window = Rayfield:CreateWindow({
-    Name = "Nytherune Hub Developers",
+    Name = "Gojo Hub Developers",
     LoadingTitle = "Script Secreto de Administradores",
-    LoadingSubtitle = "by Wx",
+    LoadingSubtitle = "by ghost",
     ConfigurationSaving = {
         Enabled = true,
-        FolderName = "NytheruneHub",
+        FolderName = "GOJOHub",
         FileName = "DevConfig"
     },
     KeySystem = true,
     KeySettings = {
         Title = "Se o script já apareceu ignore isso, não é necessário colocar key.",
         Subtitle = "Se você já executou o script e ele apareceu, pode ignorar isso.",
-        Note = "© Nytherune Hub Developers All Rights Reserved 2024-2025.",
-        FileName = "NytheruneKey",
+        Note = "© GOJO Hub Developers All Rights Reserved 2024-2025.",
+        FileName = "GOJOKey",
         SaveKey = true,
         GrabKeyFromSite = false,
-        Key = "0000-batata-frita"
+        Key = "999ghost-batata"
     }
 })
 
